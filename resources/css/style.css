@@ -4,16 +4,82 @@ html {
   color: black;
 }
 
-.top_banner {
+#top_banner {
   color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-  }
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-a.top_banner {
+#top_banner
+a {
   font-size: 18px;
 }
+
+#top_banner
+a:link {color: white ;}
+
+#top_banner
+a:visited {color: white ;}
+
+#top_banner
+a:hover {color: white}
+
+#top_banner
+a:active {color: white; }
 
 h1 {
   font-size: 70px;
   font-weight: bold;
 }
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.designed_banner {
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer {
+  color: white;
+  background-color: dimgray;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: left;
+    }
+
+.footer
+p {
+  font-size: 11px;
+}
+
+.footer
+a {
+  font-size: 18px;
+}
+
+.footer
+a:link {color: white ;}
+
+.footer
+a:visited {color: white ;}
+
+.footer
+a:hover {color: white}
+
+.footer
+a:active {color: white; }
